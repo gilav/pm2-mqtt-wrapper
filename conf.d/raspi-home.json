@@ -1,1 +1,71 @@
-{    "deviceInfo": {        "status": "?",        "color": "#4D90FE",        "endPoints": {            "aDate": {                "units": "Date",                "values": {                    "value": "N/A"                },                "card-type": "crouton-simple-text",                "title": "Host date"            },            "aTime": {                "units": "Time",                "values": {                    "value": "N/A"                },                "card-type": "crouton-simple-text",                "title": "Host time"            },			"jdownloader__in": {                "values": {                    "value": false                },                "labels":{                    "true": "ON",                    "false": "OFF"                },                "card-type": "crouton-simple-toggle",                "title": "SWITCH: Jdownloader"            },            "jdownloader": {                "units": "Process status",                "values": {                    "value": "N/A"                },                "card-type": "crouton-simple-text",                "title": "Jdownloader"            },            "croutonServer": {                "units": "Process status",                "values": {                    "value": "N/A"                },                "card-type": "crouton-simple-text",                "title": "Crouton server"            },			"nodeJsChat__in": {                "values": {                    "value": false                },                "labels":{                    "true": "ON",                    "false": "OFF"                },                "card-type": "crouton-simple-toggle",                "title": "SWITCH: NodeJsChat"            },            "nodeJsChat": {                "units": "Process status",                "values": {                    "value": "N/A"                },                "card-type": "crouton-simple-text",                "title": "NodeJsChat server"            }		},        "description": "Rapberry0 at home"    }}
+{
+    "deviceInfo": {
+        "status": "?",
+        "color": "#4D90FE",
+        "endPoints": {
+            "aDate": {
+                "units": "Date",
+                "values": {
+                    "value": "N/A"
+                },
+                "card-type": "crouton-simple-text",
+                "title": "Host date"
+            },
+            "aTime": {
+                "units": "Time",
+                "values": {
+                    "value": "N/A"
+                },
+                "card-type": "crouton-simple-text",
+                "title": "Host time"
+            },
+			"jdownloader__in": {
+                "values": {
+                    "value": false
+                },
+                "labels":{
+                    "true": "ON",
+                    "false": "OFF"
+                },
+                "card-type": "crouton-simple-toggle",
+                "title": "SWITCH: Jdownloader"
+            },
+            "jdownloader": {
+                "units": "Process status",
+                "values": {
+                    "value": "N/A"
+                },
+                "card-type": "crouton-simple-text",
+                "title": "Jdownloader"
+            },
+            "croutonServer": {
+                "units": "Process status",
+                "values": {
+                    "value": "N/A"
+                },
+                "card-type": "crouton-simple-text",
+                "title": "Crouton server"
+            },
+			"nodeJsChat__in": {
+                "values": {
+                    "value": false
+                },
+                "labels":{
+                    "true": "ON",
+                    "false": "OFF"
+                },
+                "card-type": "crouton-simple-toggle",
+                "title": "SWITCH: NodeJsChat"
+            },
+            "nodeJsChat": {
+                "units": "Process status",
+                "values": {
+                    "value": "N/A"
+                },
+                "card-type": "crouton-simple-text",
+                "title": "NodeJsChat server"
+            }
+		},
+        "description": "Rapberry0 at home"
+    }
+}
